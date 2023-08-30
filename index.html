@@ -3,26 +3,78 @@
     <head>
         <title>Portfolio</title>
         <link href="./style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Roboto+Slab&family=Tulpen+One&family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
                 <ul>
                     <li><a href="#about">About Me</a></li>
+                    <li class="divider">|</li>
                     <li><a href="#projects">Projects</a></li>
+                    <li class="divider">|</li>
                     <li><a href="#skills">Skills</a></li>
+                    <li class="divider">|</li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </nav>
             <h1>Ben Zuniga</h1>
+            <hr class="brown-line">
+            <hr class="green-line">
+            <hr class="brown-line">
         </header>
         <body>
             <main>
-                <section></section>
-                <section></section>
-                <section></section>
+                <section id="about">
+                    <h2>About Me</h2>
+                    <img src="images/IMG_3409.JPG" alt="A portrait photo of Ben Zuniga">
+                    <div class="info">
+                        <p class="brown-border">Hi! My name is Ben and I am a Software Engineer orginally from Soquel, California but now based out of New York. The purpose of this page is to introduce myself to you and display some of the Web Apps and Projects I have created over the years.</p>
+                        <p class="green-border">In my free time I enjoy playing and watching sports such as basketball, football, and soccer, as well as spending time outdoors backpacking and camping. You can also find me playing chess and of course coding!</p>
+                        <p class="brown-border">I am always eager to experiment with new ideas and create exciting projects, so if you are interested in my work, want to collaborate, or want to learn more about my story, feel free to contact me!</p>
+                    </div> 
+                    <hr class="brown-line">
+                </section>
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <div class="project-container">
+
+                        <div class="fitness">
+                            <h3>Fitness App</h3>
+                            <img src="images/tractivity-logo-black.png">
+                            <img src="images/header image.png">
+                            <p></p>
+                        </div>
+
+                        <div class="education">
+                            <h3>Free Education</h3>
+                            <div class="hidden">
+                                <img src="">
+                                <img src="">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="connect4">
+                            <h3>Connect Four</h3>
+                            <div class="hidden">
+                                <img src="">
+                                <img src="">
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div> 
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                </section>
             </main>
         </body>
         <footer>
+            <h3>Soquel Technologies</h3>
         </footer>
     </body>
 </html>
