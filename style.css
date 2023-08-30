@@ -120,6 +120,10 @@ nav ul {
     margin-bottom: 40px;
 }
 
+span {
+    color:rgb(61, 173, 125);
+}
+
 /* Projects Section */
 
 .fitness img {
@@ -139,8 +143,25 @@ nav ul {
     align-items: center;
 }
 
-.fitness {
+.proj {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin-bottom: 40px;
 }
+
+.education img {
+    max-height: 200px;
+    width: 50%;
+    object-fit: cover;
+    object-position:center 20%;
+}
+
+.connect4 img {
+    width: 20%;
+}
+
+/* Skills Section */
+
+
+/* Footer */
