@@ -1,10 +1,9 @@
 /* Whole Page */
+
 body {
     font-family: 'Lato', sans-serif;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: rgb(74, 47, 38);
+    margin: 0;
+    color: rgb(3, 2, 2);
     background-color: rgb(255, 250, 245);
 }
 
@@ -60,6 +59,7 @@ nav ul {
 .divider {
     color: rgb(181, 128, 65);
 }
+
 
 .brown-line {
     background-color: rgb(181, 128, 65);
@@ -135,12 +135,14 @@ span {
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .project-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .proj {
@@ -162,6 +164,45 @@ span {
 }
 
 /* Skills Section */
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;;
+}
 
+#skills i {
+    margin-top: 20px;
+    width: 60px;
+    font-size: 2rem;
+}
 
 /* Footer */
+footer {
+    background-color: rgb(74, 47, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    margin:10px;
+    font-family: 'Tulpen One', cursive;
+    color: rgb(181, 128, 65);
+}
+
+.fa-tree {
+    color: green;
+}
+
+.fa-water {
+    color: deepskyblue;
+}
+
+.fa-computer {
+    color: silver;
+}
+
+.fa-earth-americas {
+    color: steelblue;
+}
