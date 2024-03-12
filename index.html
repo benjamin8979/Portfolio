@@ -1,93 +1,292 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio</title>
+        <title>Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <link href="./style.css" rel="stylesheet" type="text/css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Roboto+Slab&family=Tulpen+One&family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/79cb866e57.js" crossorigin="anonymous"></script>
+        <script defer src="index.js"></script>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li class="divider">|</li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li class="divider">|</li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li class="divider">|</li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <h1>Ben Zuniga</h1>
-            <hr class="brown-line">
-            <hr class="green-line">
-            <hr class="brown-line">
-        </header>
-        <main>
-            <section id="about">
-                <h2>About Me</h2>
-                <img src="images/IMG_3409.JPG" alt="A portrait photo of Ben Zuniga">
-                <div class="info">
-                    <p class="brown-border">Hi! My name is Ben and I am a Software Engineer orginally from Soquel, California but now based out of New York. The purpose of this page is to introduce myself to you and display some of the Web Apps and Projects I have created over the years.</p>
-                    <p class="green-border">In my free time I enjoy playing and watching sports such as basketball, football, and soccer, as well as spending time outdoors backpacking and camping. You can also find me playing chess and of course coding!</p>
-                    <p class="brown-border">I am always eager to experiment with new ideas and create exciting projects, so if you are interested in my work, want to collaborate, or want to learn more about my story, feel free to <span>contact me!</span></p>
-                </div> 
-                <hr class="brown-line">
-            </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <div class="project-container">
-
-                    <div class="fitness proj">
+        <section id="about">
+            <div class="bg">
+                <img src="images/pinetrees.png" class="tree"/>
+                <img src="images/river.png" class="river"/>
+            </div>
+            <div class="intro">
+                <h1>Ben Zuniga</h1>
+                <div class="portrait">
+                    <img src="images/blackBox.png" class="box"/>
+                    <img src="images/IMG_3409.JPG" class="person"/>
+                </div>
+                <div class="p-container">
+                    <p>Hi! I'm a software engineer originally from Soquel, California 
+                        but now based out of New York.
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="blue"></div>
+                <div class="brown">
+                    <div class="square">
+                        <div class="square-inner">
+                            <div class="card-front">
+                                <h3>Skills</h3>
+                            </div>
+                            <div class="card-back skills">
+                                <i class="fa-brands fa-python ic" title="Python"></i>
+                                <i class="fa-brands fa-java ic" title="Java"></i>
+                                <i class="fa-brands fa-square-js ic" title="JavaScript"></i>
+                                <i class="fab fa-html5 ic" title="HTML5"></i>
+                                <i class="fa-brands fa-css3-alt ic" title="CSS"></i>
+                                <i class="fa-solid fa-database ic" title="Databases"></i>
+                                <i class="fa-brands fa-react ic" title="React"></i>
+                                <i class="fa-brands fa-node ic" title="Node.js"></i>
+                                <i class="fa-solid fa-terminal ic" title="Unix"></i>
+                                <i class="fa-brands fa-git ic" title="Git"></i>
+                                <i class="fa-solid fa-robot ic" title="AI/ML"></i>
+                                <i class="fa-solid fa-ellipsis ic" title="C, C++"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="square">
+                        <div class="square-inner">
+                            <div class="card-front">
+                                <h3>Hobbies</h3>
+                            </div>
+                            <div class="card-back">
+                                <h5>Sports &nbsp;&nbsp;<i class="fa-solid fa-basketball" title="Basketball"></i> <i class="fa-solid fa-futbol" title="Futbol"></i> <i class="fa-solid fa-football" title="Football"></i></h5>
+                                <h5>Outdoors &nbsp;&nbsp;<i class="fa-solid fa-tree" title="Forest"></i> <i class="fa-solid fa-mountain" title="Mountains"></i> <i class="fa-solid fa-water" title="Ocean"></i></h5>
+                                <h5>Chess &nbsp;&nbsp;<i class="fa-solid fa-chess-queen" title="Mate in 2"></i> <i class="fa-solid fa-chess-knight" title="Mate in 1"></i> <i class="fa-solid fa-chess" title="Checkmate"></i> </h5>
+                                <h5>Coding &nbsp;&nbsp; <i class="fa-solid fa-terminal" title="Creating"></i> <i class="fa-solid fa-earth-americas" title="Awesome"></i> <i class="fa-solid fa-computer" title="Software"></i></h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="square">
+                        <div class="square-inner">
+                            <div class="card-front">
+                                <h3>Contact</h3>
+                            </div>
+                            <div class="card-back">
+                                <h6 class="email">zunigaben72@gmail.com </h6>
+                                <h6><a class="contact" href="mailto:zunigaben72@gmail.com" target="_blank"><i class="fa-solid fa-envelope" ></i></a></h6>
+                                <h6>GitHub </h6>
+                                <h6><a class="contact" href="https://github.com/benjamin8979?tab=stars" target="_blank"><i class="fa-brands fa-github"></i></a></h6>
+                                <h6>LinkedIn </h6>
+                                <h6><a class="contact" href="https://www.linkedin.com/in/ben-zuniga-585a021a9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <header class="proj-head">
+                <h1>Projects</h1>
+            </header>
+            <div class="grid-container">
+                <div class="grid">
+                    <div class="proj-card">
+                        <h3>Music Playlist App</h3>
+                    </div>
+                    <div class="proj-card">
                         <h3>Fitness App</h3>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Free Education</h3>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Connect Four AI</h3>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Pathfinder AI</h3>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Pong AI</h3>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Battleship</h3>  
+                    </div>
+                    <div class="proj-card">
+                        <h3>Photo Editor</h3>
+                    </div>
+                    <div class="proj-card enigma">
+                        <h3>Enigma Machine</h3>
+                    </div>
+                    <div class="proj-card parser">
+                        <h3>Language Parser</h3>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content playlist">
+                        <span class="close">&times;</span>
+                        <img src="images/jammming.png">
+                        <p>Create the perfect playlist for any occasion! 
+                            The Jammming App provides a user-friendly 
+                            interface to add songs to a new playlist and 
+                            save it to your Spotify account. This project was 
+                            created primarily with React along with 
+                            supporting CSS and JavaScript modules and utilizes 
+                            the Spotify API. <a href="https://github.com/benjamin8979/Jammming" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content fitness">
+                        <span class="close">&times;</span>
                         <img src="images/tractivity-logo-black.png">
                         <img src="images/header image.png">
-                        <p>Project description here.</p>
+                        <p>Track your fitness goals with Tractivity. This 
+                            fitness web app allows a user to track and view 
+                            their weekly fitness activities and to plan out 
+                            their future fitness goals. A user can choose from 
+                            activities such as walking, running, swimming, 
+                            biking, doing yoga, playing soccer, or playing basketball. 
+                            This project was created with JavaScript, CSS, and 
+                            HTML on the frontend and Node.js and Express on the backend.
+                            <a href="https://github.com/benjamin8979/FitnessTracker" target="_blank"><span>Project link</span></a>
+                        </p>
+                        </p>
                     </div>
-
-                    <div class="education proj">
-                        <h3>Free Education</h3>
-                            <img src="images/neonsign-home.gif">
-                            <p>Project description here.</p>
-                    </div>
-
-                    <div class="connect4 proj">
-                        <h3>Connect Four</h3>
-                            <img src="images/Screen Shot 2023-08-30 at 10.28.56 AM.png">
-                            <p>Project description here.</p>
-                    </div>
-
-                </div> 
-                <hr class="brown-line">
-            </section>
-            <section id="skills">
-                <h2>Skills</h2>
-                <div class="icons">
-                    <i class="fab fa-html5"></i>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <i class="fa-brands fa-square-js"></i>
-                    <i class="fa-solid fa-database"></i>
-                    <i class="fa-brands fa-react"></i>
-                    <i class="fa-brands fa-node"></i>
-                    <i class="fa-brands fa-python"></i>
-                    <i class="fa-solid fa-terminal"></i>
-                    <i class="fa-brands fa-java"></i>
-                    <i class="fa-brands fa-git"></i>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <h3>Soquel Technologies</h3>
-            <div>
-                <i class="fa-solid fa-tree"></i>
-                <i class="fa-solid fa-water"></i>
-                <i class="fa-solid fa-computer"></i>
-                <i class="fa-solid fa-earth-americas"></i>
+                <div class="modal">
+                    <div class="modal-content education">
+                        <span class="close">&times;</span>
+                        <img src="images/neonsign-home.gif">
+                        <p>Education is free online! The Free Education App 
+                            allows you to explore free college courses online. 
+                            Choose from 8 different subjects and then explore 
+                            the free online material in that topic. 
+                            This project was created with React and CSS.
+                            <a href="https://benjamin8979.github.io/FreeEducation/" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content connect4">
+                        <span class="close">&times;</span>
+                        <img src="images/connect4.png">
+                        <p>Test out your Connect4 skills against 5 different
+                            Connect4 AIs! Minimax AI uses the 
+                            <a href="https://en.wikipedia.org/wiki/Minimax" target="_blank"><span>minimax</span></a>  
+                            algorithm to select its move, AlphaBeta AI uses 
+                            the minimax algorithm with <a href="https://en.wikipedia.org/wiki/Alpha–beta_pruning" target="_blank"><span>alpha-beta</span></a> pruning, 
+                            MonteCarlo AI uses <a href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search" target="_blank"><span>Monte Carlo tree search</span></a> to 
+                            make its move, Random AI chooses a random 
+                            column to place its piece, and Stupid AI always 
+                            tries to go in the same column until its full. 
+                            This project was created with Python and the 
+                            Pygame library for graphics. <a href="https://github.com/benjamin8979/Connect4/tree/master" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content mountain">
+                        <span class="close">&times;</span>
+                        <img src="images/path.png">
+                        <p>Find the shortes path across any terrain! 
+                            The Pathfinder AI uses the <a href="https://en.wikipedia.org/wiki/A*_search_algorithm" target="_blank"><span>A*</span></a> search algorithm to 
+                            efficiently find the lowest cost path from an 
+                            initial position to a goal position across 
+                            different terrains. Terrains are defined by the 
+                            cost function used to determine the cost of 
+                            moving to an adjacent location given the change 
+                            in elevation. This project was created with Python. 
+                            <a href="https://github.com/benjamin8979/BestPathUpMountain" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content pong">
+                        <span class="close">&times;</span>
+                        <img src="images/pong.png">
+                        <p>See if you can beat the Pong AI in the classic 
+                            Atari game, Pong! The Pong AI is trained using 
+                            the <a href="https://en.wikipedia.org/wiki/A*_search_algorithm" target="_blank"><span>Q-learning</span></a> 
+                            reinforcement learning algorithm to become a 
+                            champion at the game of Pong. This project was 
+                            created with Python and the PyTorch machine 
+                            learning framework. 
+                            <a href="https://github.com/benjamin8979/Pong" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content battleship">
+                        <span class="close">&times;</span>
+                        <img src="images/battleship.png">
+                        <p>See if you can rule the seas in the classic game 
+                            of Battleship! In this game, a player selects where 
+                            they would like to place their ships on their board, 
+                            the computer does the same, and then the player 
+                            and computer take turns firing at each other's 
+                            boards. The computer uses a combination of 
+                            random and intelligent guessing. The intention 
+                            of the computer's guessing stratgey is primarily 
+                            to win and secondarily to be unpredictable. This 
+                            project was built with Java. 
+                            <a href="https://github.com/benjamin8979/Battleship" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="photos">
+                            <img src="images/apple.jpg">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <img src="images/altered.jpg">
+                        </div>
+                        <p>Edit all of your photos and see how they look! 
+                            The Photo Editor app allows a user to edit their 
+                            photos by adding a color filter, flipping it, 
+                            shrinking it, stretching it, cropping it, 
+                            inverting the colors, or doing all of those at 
+                            the same time 😎. This project was built with Java. 
+                            <a href="https://github.com/benjamin8979/imageProcessing" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content enigma">
+                        <span class="close">&times;</span>
+                        <img src="images/enigma-1356492_1280.jpg">
+                        <p>Encrypt and decrypt secret messages with the 
+                            <a href="https://www.youtube.com/watch?v=ybkkiGtJmkM&feature=youtu.be&themeRefresh=1" target="_blank"><span>Enigma machine</span></a>! 
+                            This program simulates the complicated encryption 
+                            process of the Enigma machine in its entirety 
+                            including the <a href="https://en.wikipedia.org/wiki/Enigma_machine#Plugboard" target="_blank"><span>plugboard</span></a>, 
+                            <a href="https://en.wikipedia.org/wiki/Enigma_machine#Reflector" target="_blank"><span>reflector</span></a>, 
+                            and <a href="https://en.wikipedia.org/wiki/Enigma_rotor_details" target="_blank"><span>rotors</span></a>.
+                            This project was programmed in C. 
+                            <a href="https://github.com/benjamin8979/Enigma" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal">
+                    <div class="modal-content parser">
+                        <span class="close">&times;</span>
+                        <img src="images/parser.png">
+                        <p>Test out your programs in the made up 
+                            <a href="xlanguage.html" target="_blank"><span>X language</span></a> 
+                            and see if they are syntactically correct! 
+                            The language parser reads in an input file, 
+                            lexically analyzes it to categorize each token, 
+                            and then syntactically analyzes it to see if the 
+                            provided program follows all of the rules of the 
+                            X language. If so, it outputs a formatted xhtml file.
+                            This project was programmed in Rust.
+                            <a href="https://github.com/ManasiVats/Parser/tree/main" target="_blank"><span>Project link</span></a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
-        </footer>
+        </section>
     </body>
 </html>
